@@ -52,9 +52,9 @@ var cy = window.cy = cytoscape({
       { data: { id: 'connection', type: 'diamond', label: '' }, position: { x: 500, y: 75 } },
     ],
     edges: [
-      { data: { id: 'ad', source: 'disk', target: 'host1', label: '' } },
-      { data: { id: 'eb', source: 'host1', target: 'connection', label: 'Link1' } },
-      { data: { id: 'cb', source: 'host2', target: 'connection', label: 'Link2' } },
+      { data: { id: 'disk-to-host1', source: 'disk', target: 'host1', label: '' } },
+      { data: { id: 'host1-connection', source: 'host1', target: 'connection', label: 'Link1' } },
+      { data: { id: 'host2-connection', source: 'host2', target: 'connection', label: 'Link2' } },
 
     ]
   },
